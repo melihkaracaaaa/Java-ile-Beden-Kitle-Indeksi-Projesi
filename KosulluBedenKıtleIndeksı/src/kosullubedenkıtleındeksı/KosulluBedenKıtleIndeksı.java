@@ -1,10 +1,10 @@
-package kosullubedenkıtleındeksı;
+package kosullubedenkitleindeksi;
 
 
 import java.util.Scanner;
 
 
-public class KosulluBedenKıtleIndeksı {
+public class KosulluBedenKitleindeksi {
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
         
@@ -18,18 +18,18 @@ public class KosulluBedenKıtleIndeksı {
     
     
         if (bki < 18.5 ) {
-            System.out.print("Zargana");
+            System.out.print("Zayıf");
   
 }
        else if (bki>= 18.5 && bki <= 25) {
-            System.out.print("İdare eder");
+            System.out.print("Kilolu");
 }       
         else if (bki>=25 && bki<= 30) {
             System.out.print("Fazla kilolu");
             }
             
         else 
-            System.out.print("ŞİŞMAN");
+            System.out.print("OBEZ");
     
     
 }
